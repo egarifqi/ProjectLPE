@@ -1,0 +1,28 @@
+JSON
+
+JSON (JavaScript Object Notation) adalah format pertukaran data yang ringan, 
+mudah dibaca dan ditulis oleh manusia, serta mudah diterjemahkan dan dibuat (generate) oleh komputer.
+JSON merupakan format teks yang tidak bergantung pada bahasa pemprograman apapun karena menggunakan gaya bahasa yang umum 
+digunakan oleh programmer keluarga C termasuk C, C++, C#, Java, JavaScript, Perl, Python dll. 
+Oleh karena sifat-sifat tersebut, menjadikan JSON ideal sebagai bahasa pertukaran-data.
+
+REST API
+
+REST adalah salah satu jenis web service yang menerapkan konsep perpindahan antar state. 
+State disini dapat digambarkan seperti jika browser meminta suatu halaman web, 
+maka serverakan mengirimkan state halaman web yang sekarang ke browser. 
+Bernavigasi melalui link-link yang disediakan sama halnya dengan mengganti state dari halaman web. 
+Begitu pula REST bekerja, dengan bernavigasi melalui link-link HTTP untuk melakukan aktivitas tertentu, 
+seakan-akan terjadi perpindahan state satu sama lain. Perintah HTTP yang bisa digunakan adalah 
+fungsi GET, POST, PUT atau DELETE. Balasan yang dikirimkan adalah dalam bentuk XML sederhana tanpa ada protokol 
+pemaketan data, sehingga informasi yang diterima lebih mudah dibaca dan diparsing disisi client.
+REST lebih banyak digunakan untuk web serviceyang berorientasi pada resource.
+
+GITHUB API
+
+Library yang mendefinisikan representasi berorientasi objek dari GitHub API. Karena berorientasi objek maka terdapat kelas yang
+berkoresponden dengan model domain dari GitHub seperti GHRepository, operasi yang bereaksi terhadap mereka yang disebut methods dan 
+terdapat pula objek. Library ini juga mendukung github.com dan github enterprise.
+
+Hampir semua GitHub API sudah ditemukan atau dijelaskan, tetapi masih terdapat beberapa hal kecil yang masih belum bisa diimplementasikan
+
